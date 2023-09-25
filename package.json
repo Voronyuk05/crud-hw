@@ -1,31 +1,35 @@
 {
-  "name": "parcel-handlebars",
+  "name": "crud-hw",
   "version": "2.0.0",
-  "description": "",
-  "homepage": "https://IrynaSokolova-Quanandrya.github.io/parcel-handlebars",
+  "description": "Цей проект було створено за допомогою Parcel. Для знайомства та налаштування\r додаткові можливості [зверніться до документації](https://uk.parceljs.org/).",
+  "homepage": "https://Voronyuk05.github.io/crud-hw",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /parcel-handlebars/"
+    "build": "parcel build src/*.html --public-url /crud-hw/",
+    "server": "json-server --watch db.json"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/IrynaSokolova-Quanandrya/parcel-handlebars.git"
+    "url": "git+https://github.com/Voronyuk05/crud-hw.git"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/IrynaSokolova-Quanandrya/parcel-handlebars/issues"
+    "url": "https://github.com/Voronyuk05/crud-hw/issues"
   },
   "dependencies": {
-    "modern-normalize": "^1.1.0",
-    "parcel-transformer-hbs": "^1.0.4"
+    "json-server": "^0.17.3",
+    "modern-normalize": "^1.1.0"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",
     "parcel": "^2.6.0",
     "parcel-reporter-clean-dist": "^1.0.4",
+    "parcel-transformer-hbs": "^1.0.4",
     "posthtml-include": "^1.7.4"
   },
-  "browserslist": "> 0.5%, last 2 versions, not dead"
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "main": "index.js",
+  "source": "src/index.html"
 }
