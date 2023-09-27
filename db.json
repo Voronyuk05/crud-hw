@@ -1,11 +1,11 @@
 {
   "movies": [
     {
-      "title": "vfdsdgfhdgfhjfgjfg",
-      "director": "sdfgdsgsd",
-      "genre": "",
-      "year": "",
-      "id": 1
+      "id": 1,
+      "title": "The Shawshank Redemption",
+      "genre": "Drama",
+      "director": "Frank Darabont",
+      "year": 1994
     },
     {
       "id": 2,
