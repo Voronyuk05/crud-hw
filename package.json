@@ -19,6 +19,7 @@
     "url": "https://github.com/Voronyuk05/crud-hw/issues"
   },
   "dependencies": {
+    "@swc/helpers": "^0.5.2",
     "json-server": "^0.17.3",
     "modern-normalize": "^1.1.0"
   },
