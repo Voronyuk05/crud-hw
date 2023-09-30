@@ -1,6 +1,0 @@
-form#createPostForm {
-  flex-direction: column;
-  display: flex;
-}
-
-/*# sourceMappingURL=index.11ef8305.css.map */
