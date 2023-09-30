@@ -149,7 +149,6 @@ function getInputsValue(action) {
         } else if (action === 'update') {
             editedMovies.push(inputValue)
         }
-        console.log(editedMovies);
     }
      
     return {editedMovies}
